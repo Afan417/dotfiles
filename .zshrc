@@ -12,9 +12,14 @@ prompt pure
 
 alias gstash="git stash"
 alias gstatus="git status"
+alias gbranch="git branch"
 alias gadd="git add ."
 alias gcommit="git commit -m"
 alias gpush="git push"
 alias gpull="git pull"
+alias gcheckout="git checkout"
+alias gswitch="git switch -c"
+alias gmerge="git merge"
+alias npd="npm run dev"
 
 alias artisanclear='php artisan optimize:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear'
