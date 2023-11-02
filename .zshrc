@@ -21,5 +21,6 @@ alias gcheckout="git checkout"
 alias gswitch="git switch -c"
 alias gmerge="git merge"
 alias npd="npm run dev"
+alias npw="npm run watch"
 
 alias artisanclear='php artisan optimize:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear'
