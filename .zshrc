@@ -23,4 +23,6 @@ alias gmerge="git merge"
 alias npd="npm run dev"
 alias npw="npm run watch"
 
-alias artisanclear='php artisan optimize:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear'
+alias ac='php artisan optimize:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear'
+
+export PATH=${PATH}:~/.composer/vendor/bin
